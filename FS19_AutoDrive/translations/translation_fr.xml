@@ -13,7 +13,7 @@
 		<text name="input_AD_Speed_up"							text="AD: Augmenter la vitesse" />
 		<text name="input_AD_Speed_down"						text="AD: Réduire la vitesse" />
 		<text name="input_AD_routes_manager"					text="AD: Ouvrir le gestionnaire d'itinéraires" />
-		<text name="input_AD_open_notification_history" 		text="AD: Open notification history" />
+		<text name="input_AD_open_notification_history" 		text="AD: Ouvrir historique des notifications" />
 		<text name="input_AD_continue"							text="AD: Continuer" />
 		<text name="input_ADSelectTargetUnload"					text="AD: Sélect. prochain déchargement" />
 		<text name="input_ADSelectPreviousTargetUnload"			text="AD: Sélect. déchargement précédent" />
@@ -60,9 +60,9 @@
 		<text name="AD_lshift_for_reverse" 						text="LSHIFT reverse drive" />
 		<text name="gui_ad_Setting"								text="AutoDrive - paramètres" />
 		<text name="gui_ad_collisionHeigth"						text="Collisionheigth over ground" />
-		<text name="gui_ad_collisionHeigth_tooltip"				text="Setting for collision detection in front of vehicle. If other vehicles are not detected during driving, reduce step by step. (Default 2m)" />
-		<text name="gui_ad_blinkValue"						    text="Turnlight Automatic" />
-		<text name="gui_ad_blinkValue_tooltip"					text="Steering angle to enable turn lights automatically. (0 = turn light automatic deactivated)" />
+		<text name="gui_ad_collisionHeigth_tooltip"				text="Réglage de la détection de collision devant le véhicule. Si d'autres véhicules ne sont pas détectés pendant la conduite, réduisez progressivement.. (par défaut 2m)" />
+		<text name="gui_ad_blinkValue"						    text="Clignotants Automatiques" />
+		<text name="gui_ad_blinkValue_tooltip"					text="Raon de braquage pour activer automatiquement les clignotants. (0 = Clignotants automatiques désactivés)" />
 		<text name="gui_ad_pipe_offset"							text="Décalage du tuyau (pipe)" />
 		<text name="gui_ad_followDistance"						text="Distance de moissonneuse" />
 		<text name="gui_ad_followDistance_tooltip"				text="Distance de la moissonneuse depuis son extrémité arrière, lorsqu'elle est suivie." />
@@ -133,7 +133,7 @@
 		<text name="gui_ad_onlyDeliver"					        text="only Deliver" />
 		<text name="gui_ad_PickupandDeliver"					text="Pickup and Deliver" />
 		<text name="gui_ad_rotateTargets"					    text="Cycle Pickup and Deliver" />
-		<text name="gui_ad_rotateTargets_tooltip"			    text="4 Modes: No change of targets / only Pickup Targets / only Deliver Targets / Pickup and Deliver Targets in folder are cycled (not with default folder) (only considered if use folders is active)" />
+		<text name="gui_ad_rotateTargets_tooltip"			    text="4 Modes: Aucun changement d'objectifs / uniquement les cibles de chargement / uniquement les cibles de livraisons / Chargments et livraison d'un même dossier (pas avec le dossier par défaut) (pris en compte uniquement si l'utilisation des dossiers est active)" />
 		<text name="gui_ad_distributeToFolder"					text="Objectifs multiples" />
 		<text name="gui_ad_distributeToFolder_tooltip"			text="Toutes les cibles d'un même dossier deviendront des cibles de déchargement les unes après les autres." />
 		<text name="gui_ad_maxTriggerDistance"					text="Zone maxi du silo" />
@@ -313,6 +313,6 @@
 		<text name="AD_task_chase_side_right"					text="droite" />	
 		<text name="AD_task_waiting_for_room"					text="En attente d'une chambre" />	
 		<text name="AD_task_exiting_field"						text="Champ de sortie" />
-		<text name="AD_task_reversing_from_collision"			text="Searching clear area" />
+		<text name="AD_task_reversing_from_collision"			text="Recherche d'une zone dégagée" />
 	</texts>
 </l10n>
